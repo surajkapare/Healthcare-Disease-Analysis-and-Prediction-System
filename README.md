@@ -64,6 +64,8 @@ Jupyter Notebook
 
 **🔄 Project Workflow**
 Dataset ↓ Data Loading ↓ Data Understanding ↓ Data Quality Checking ↓ Missing Value Analysis ↓ Data Cleaning ↓ Descriptive Statistics ↓ Univariate Analysis ↓ Bivariate Analysis ↓ Multivariate Analysis ↓ Correlation Analysis ↓ Outlier Detection & Treatment ↓ Risk Analysis ↓ Key Insights ↓ Conclusion
+
+
 **🧹 Data Cleaning**
 
 The following data-cleaning activities were performed:
