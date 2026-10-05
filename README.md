@@ -1,8 +1,8 @@
 # Healthcare-Disease-Analysis-and-Prediction-System
 EDA analysis on Healthcare Dataset using numpy , pandas , matplotlib , seaborn 
 
-🏥 Healthcare Disease Analysis and Prediction System
-📌 Project Overview
+**🏥 Healthcare Disease Analysis and Prediction System
+📌 Project Overview**
 
 The Healthcare Disease Analysis and Prediction System is an Exploratory Data Analysis (EDA) project focused on analyzing healthcare and lifestyle information of patients to identify meaningful patterns related to disease prediction.
 
@@ -12,7 +12,7 @@ The analysis covers the complete data-analysis workflow, including data understa
 
 The cleaned and analyzed dataset can also serve as a foundation for further SQL analysis, Power BI dashboards, and machine-learning-based disease prediction.
 
-🎯 Project Objectives
+**🎯 Project Objectives**
 
 The main objectives of this project are:
 
@@ -25,7 +25,8 @@ Analyze disease-prediction patterns.
 Identify patients with multiple potentially high-risk indicators.
 Generate meaningful business/healthcare insights from the data.
 Prepare a clean dataset for further analytics and machine learning.
-📊 Dataset Information
+
+**📊 Dataset Information**
 
 Dataset Source: Kaggle
 
@@ -47,7 +48,9 @@ Family_History	Family disease-history information
 Physical_Activity	Physical activity level
 Sleep_Hours	Average sleep duration
 Disease_Prediction	Disease prediction target
-🛠️ Technologies & Libraries Used
+
+
+**🛠️ Technologies & Libraries Used**
 Programming Language
 Python
 Libraries
@@ -57,14 +60,15 @@ Matplotlib – Data visualization
 Seaborn – Statistical visualization
 Development Environment
 Jupyter Notebook
-Google Colab
-🔄 Project Workflow
+
+
+**🔄 Project Workflow**
 Dataset
    ↓
 Data Loading
-   ↓
+   ↓   
 Data Understanding
-   ↓
+   ↓   
 Data Quality Checking
    ↓
 Missing Value Analysis
@@ -88,6 +92,7 @@ Risk Analysis
 Key Insights
    ↓
 Conclusion
+
 🧹 Data Cleaning
 
 The following data-cleaning activities were performed:
@@ -118,7 +123,7 @@ df.duplicated().sum()
 
 The data types of all 13 columns were examined and verified before performing further analysis.
 
-📈 Exploratory Data Analysis
+**📈 Exploratory Data Analysis**
 Univariate Analysis
 
 Individual variables were analyzed using:
@@ -141,7 +146,8 @@ Smoking
 Family History
 Physical Activity
 Disease Prediction
-🔗 Bivariate Analysis
+
+**🔗 Bivariate Analysis**
 
 Relationships between two variables were analyzed to understand potential patterns.
 
@@ -158,7 +164,7 @@ Physical Activity vs Disease Prediction
 
 These comparisons helped identify differences in health indicators across disease-prediction groups.
 
-📊 Multivariate Analysis
+**📊 Multivariate Analysis**
 
 Multiple healthcare variables were analyzed together to understand how different health indicators interact.
 
@@ -174,7 +180,7 @@ Lifestyle factors
 
 Correlation analysis was also performed to understand relationships between numerical variables.
 
-🚨 Outlier Analysis
+**🚨 Outlier Analysis**
 
 Outliers were analyzed using the Interquartile Range (IQR) method.
 
@@ -206,7 +212,7 @@ This provides a simple analytical approach for identifying patients who may requ
 
 Note: This risk score is an analytical feature created for this project and should not be interpreted as a medical diagnosis.
 
-🔍 Key Insights
+**🔍 Key Insights**
 
 The analysis produced several important findings:
 
@@ -246,7 +252,7 @@ Data cleaning and outlier treatment are essential before using healthcare data f
 
 Combining multiple health indicators provides a more useful view of potential patient risk than relying on a single variable.
 
-📌 Project Conclusion
+**📌 Project Conclusion**
 
 The Healthcare Disease Analysis and Prediction System successfully performed an end-to-end exploratory data analysis on 10,000 patient records.
 
@@ -256,7 +262,7 @@ The analysis identified useful patterns across age, BMI, blood pressure, glucose
 
 Overall, the project demonstrates how Python and EDA techniques can transform raw healthcare data into meaningful analytical insights. The resulting cleaned dataset provides a strong foundation for future SQL analysis, Power BI dashboard development, and machine-learning-based disease prediction.
 
-🚀 Future Scope
+**🚀 Future Scope**
 
 This project can be extended further by:
 
