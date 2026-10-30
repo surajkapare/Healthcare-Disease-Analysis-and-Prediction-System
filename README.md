@@ -1,250 +1,153 @@
-# Healthcare-Disease-Analysis-and-Prediction-System
-EDA analysis on Healthcare Dataset using numpy , pandas , matplotlib , seaborn 
+# 🏥 Healthcare Disease Analysis and Prediction System
+
+## 📌 Project Overview
+
+The **Healthcare Disease Analysis and Prediction System** is an end-to-end Data Science project focused on analyzing healthcare data, extracting meaningful insights, and predicting potential disease outcomes using Machine Learning techniques.
+
+This project follows three major phases: Exploratory Data Analysis (EDA), SQL Data Analysis, and Machine Learning Model Development.
 
-**🏥 Healthcare Disease Analysis and Prediction System
-📌 Project Overview**
+The main objective is to transform raw healthcare data into meaningful insights and build a predictive model that can support data-driven healthcare analysis.
 
-The Healthcare Disease Analysis and Prediction System is an Exploratory Data Analysis (EDA) project focused on analyzing healthcare and lifestyle information of patients to identify meaningful patterns related to disease prediction.
+## 🎯 Project Objectives
 
-The project works with 10,000 patient records and 13 attributes, including demographic information, health measurements, lifestyle factors, and the disease prediction target.
+- Analyze healthcare data to identify meaningful patterns and trends.
+- Perform data cleaning and preprocessing to improve data quality.
+- Conduct Exploratory Data Analysis to understand relationships between different healthcare attributes.
+- Perform SQL-based analysis to extract valuable insights.
+- Develop and evaluate Machine Learning classification models.
+- Identify the best-performing model for disease prediction.
+
+## 🛠️ Technologies & Tools Used
 
-The analysis covers the complete data-analysis workflow, including data understanding, data cleaning, missing-value treatment, descriptive statistics, univariate analysis, bivariate analysis, multivariate analysis, correlation analysis, outlier detection, and risk analysis.
+| Category | Tools & Technologies |
+|---|---|
+| Programming | Python |
+| Data Analysis | Pandas, NumPy |
+| Data Visualization | Matplotlib, Seaborn |
+| Database | MySQL |
+| Machine Learning | Scikit-learn |
+| Algorithms | KNN, Random Forest, AdaBoost, Gradient Boosting |
+| Development Environment | Jupyter Notebook, Google Colab |
+| Version Control | Git & GitHub |
+
+## 📂 Project Structure
+
+```text
+Healthcare-Disease-Analysis-and-Prediction-System/
+│
+├── Dataset/
+│
+├── EDA_Analysis/
+│
+├── Machine_Learning_Model/
+│
+├── SQL_Analysis/
+│
+└── README.md
+```
 
-The cleaned and analyzed dataset can also serve as a foundation for further SQL analysis, Power BI dashboards, and machine-learning-based disease prediction.
+## 🔍 Project Phases
 
-**🎯 Project Objectives**
+### 1️⃣ Exploratory Data Analysis (EDA)
 
-The main objectives of this project are:
+In this phase, healthcare data was explored, cleaned, and analyzed to understand the dataset and identify important patterns.
 
-Understand the structure and characteristics of healthcare data.
-Identify and handle missing values.
-Analyze numerical and categorical variables.
-Detect and handle outliers.
-Study relationships between health and lifestyle variables.
-Analyze disease-prediction patterns.
-Identify patients with multiple potentially high-risk indicators.
-Generate meaningful business/healthcare insights from the data.
-Prepare a clean dataset for further analytics and machine learning.
+**Key Activities:**
+- Data loading and initial inspection.
+- Handling missing values and duplicate records.
+- Data cleaning and preprocessing.
+- Outlier detection and treatment.
+- Univariate, Bivariate, and Multivariate Analysis.
+- Data visualization using Matplotlib and Seaborn.
+- Identifying relationships and patterns among healthcare attributes.
 
-**📊 Dataset Information**
+**Outcome:** Gained meaningful insights into healthcare data and prepared a clean dataset for further analysis.
 
-Dataset Source: Kaggle
+### 2️⃣ SQL Data Analysis
 
-Total Records: 10,000
-Total Columns: 13
+In this phase, MySQL was used to perform structured queries and extract meaningful information from the cleaned healthcare dataset.
 
-Dataset Features
-Column	Description
-Patient_ID	Unique patient identifier
-Age	Age of the patient
-Sex	Gender of the patient
-BMI	Body Mass Index
-Blood_Pressure	Patient blood pressure
-Glucose_Level	Blood glucose level
-Cholesterol	Cholesterol level
-Heart_Rate	Patient heart rate
-Smoking	Smoking status
-Family_History	Family disease-history information
-Physical_Activity	Physical activity level
-Sleep_Hours	Average sleep duration
-Disease_Prediction	Disease prediction target
+**Key Activities:**
+- Database and table creation.
+- Data importing and exploration.
+- Filtering and sorting records.
+- Aggregate functions such as COUNT(), AVG(), MIN(), and MAX().
+- GROUP BY and HAVING operations.
+- Subqueries and analytical queries.
+- Patient data analysis based on healthcare attributes.
+- Execution of 15 analytical SQL queries.
 
+**Outcome:** Extracted valuable insights from healthcare data using SQL and strengthened database querying skills.
 
-**🛠️ Technologies & Libraries Used**
-Programming Language
-Python
-Libraries
-NumPy – Numerical operations
-Pandas – Data manipulation and analysis
-Matplotlib – Data visualization
-Seaborn – Statistical visualization
-Development Environment
-Jupyter Notebook
+### 3️⃣ Machine Learning Model Development
 
+In this phase, Machine Learning algorithms were implemented to predict disease outcomes based on healthcare-related attributes.
 
-**🔄 Project Workflow**
-Dataset ↓ Data Loading ↓ Data Understanding ↓ Data Quality Checking ↓ Missing Value Analysis ↓ Data Cleaning ↓ Descriptive Statistics ↓ Univariate Analysis ↓ Bivariate Analysis ↓ Multivariate Analysis ↓ Correlation Analysis ↓ Outlier Detection & Treatment ↓ Risk Analysis ↓ Key Insights ↓ Conclusion
+**Key Activities:**
+- Data preprocessing for Machine Learning.
+- Encoding categorical variables.
+- Feature selection and preparation.
+- Splitting data into training and testing sets.
+- Training multiple classification algorithms.
+- Comparing model performance.
+- Evaluating models using accuracy, confusion matrix, precision, recall, and F1-score.
+- Selecting the best-performing model.
 
+**Algorithms Implemented:**
+- K-Nearest Neighbors (KNN)
+- Random Forest Classifier
+- AdaBoost Classifier
+- Gradient Boosting Classifier
 
-**🧹 Data Cleaning**
+**🏆 Best Performing Model: Random Forest Classifier**
 
-The following data-cleaning activities were performed:
+**Model Accuracy: 94.50%**
 
-1. Missing Value Detection
+**Outcome:** Successfully trained and evaluated multiple classification models, with Random Forest achieving the best reported accuracy of 94.50%.
 
-Missing values were identified using Pandas functions such as:
+*Note: Model performance is based on the selected dataset and train-test evaluation. This project is for educational and analytical purposes, not clinical diagnosis.*
 
-df.isnull().sum()
+## 📊 Key Project Highlights
 
-The dataset contained missing values in several health-related and lifestyle columns.
+- End-to-end Data Science workflow.
+- Healthcare data cleaning and preprocessing.
+- Exploratory analysis and visualization.
+- 15 SQL analytical queries.
+- Implementation and comparison of multiple ML algorithms.
+- Random Forest achieved 94.50% accuracy.
+- Practical experience with Python, SQL, and Machine Learning.
 
-2. Missing Value Treatment
+## 🚀 Skills Gained
 
-Appropriate imputation techniques were applied to handle missing observations.
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis
+- SQL Query Writing
+- Data Visualization
+- Machine Learning
+- Classification Algorithms
+- Model Evaluation
+- Problem Solving
+- GitHub Project Management
 
-Numerical variables → Mean-based imputation
-Categorical variables → Mode-based imputation
+## 🔮 Future Scope
 
-This helped retain patient records instead of unnecessarily deleting rows.
+- Develop an interactive Power BI dashboard.
+- Deploy the trained Machine Learning model using Streamlit.
+- Improve model performance through hyperparameter tuning.
+- Explore additional Machine Learning algorithms.
+- Enhance the project with more healthcare data and features.
 
-3. Duplicate Checking
+## 👨‍💻 Author
 
-Duplicate records were checked to maintain dataset quality.
+**Suraj Kapare**
 
-df.duplicated().sum()
-4. Data Type Checking
+Aspiring Data Analyst | Data Science Enthusiast
 
-The data types of all 13 columns were examined and verified before performing further analysis.
+## 🔗 Connect & Explore
 
-**📈 Exploratory Data Analysis**
-Univariate Analysis
+**GitHub Repository:**  
+https://github.com/surajkapare/Healthcare-Disease-Analysis-and-Prediction-System
 
-Individual variables were analyzed using:
+---
 
-Histograms
-Count plots
-Box plots
-Distribution plots
-
-The analysis focused on:
-
-Age
-BMI
-Blood Pressure
-Glucose Level
-Cholesterol
-Heart Rate
-Sleep Hours
-Smoking
-Family History
-Physical Activity
-Disease Prediction
-
-**🔗 Bivariate Analysis**
-
-Relationships between two variables were analyzed to understand potential patterns.
-
-Examples include:
-
-Age vs Disease Prediction
-BMI vs Disease Prediction
-Blood Pressure vs Disease Prediction
-Glucose Level vs Disease Prediction
-Cholesterol vs Disease Prediction
-Smoking vs Disease Prediction
-Family History vs Disease Prediction
-Physical Activity vs Disease Prediction
-
-These comparisons helped identify differences in health indicators across disease-prediction groups.
-
-**📊 Multivariate Analysis**
-
-Multiple healthcare variables were analyzed together to understand how different health indicators interact.
-
-The project examined combinations of:
-
-BMI
-Blood Pressure
-Glucose Level
-Cholesterol
-Age
-Heart Rate
-Lifestyle factors
-
-Correlation analysis was also performed to understand relationships between numerical variables.
-
-**🚨 Outlier Analysis**
-
-Outliers were analyzed using the Interquartile Range (IQR) method.
-
-The analysis focused on health indicators such as:
-
-BMI
-Blood Pressure
-Glucose Level
-Cholesterol
-Heart Rate
-Sleep Hours
-
-Instead of blindly removing observations, outlier treatment was performed to reduce the impact of extreme values while preserving useful patient records.
-
-❤️ Risk Analysis
-
-A simple patient risk analysis was performed using multiple health indicators.
-
-The risk analysis considered:
-
-BMI
-Blood Pressure
-Glucose Level
-Cholesterol
-
-Patients having multiple indicators above their respective median values were identified as potentially higher-risk cases.
-
-This provides a simple analytical approach for identifying patients who may require additional investigation.
-
-Note: This risk score is an analytical feature created for this project and should not be interpreted as a medical diagnosis.
-
-**🔍 Key Insights**
-
-The analysis produced several important findings:
-
-1. Patient Population
-
-The dataset contains 10,000 patient records with demographic, health, and lifestyle information.
-
-2. Health Indicators
-
-BMI, blood pressure, glucose, and cholesterol show variation across patients and contain potentially important information for disease-risk analysis.
-
-3. Missing Data
-
-Missing observations were identified in several variables and treated using appropriate imputation techniques.
-
-4. Outliers
-
-Several healthcare variables contain extreme observations, making outlier analysis an important part of the data-cleaning process.
-
-5. Lifestyle Factors
-
-Smoking, family history, and physical activity were analyzed to understand their relationship with disease-prediction patterns.
-
-6. Age
-
-Disease-prediction patterns were compared across different age ranges, allowing age-related differences to be explored.
-
-7. Combined Risk Indicators
-
-Analyzing BMI, blood pressure, glucose, and cholesterol together provides more useful risk information than examining each variable independently.
-
-💡 Key Findings
-
-Healthcare data analysis can reveal meaningful relationships between patient demographics, health indicators, lifestyle characteristics, and disease-prediction outcomes.
-
-Data cleaning and outlier treatment are essential before using healthcare data for further statistical or machine-learning analysis.
-
-Combining multiple health indicators provides a more useful view of potential patient risk than relying on a single variable.
-
-**📌 Project Conclusion**
-
-The Healthcare Disease Analysis and Prediction System successfully performed an end-to-end exploratory data analysis on 10,000 patient records.
-
-The project analyzed patient demographics, health indicators, lifestyle factors, disease-prediction patterns, missing values, and outliers. Missing values were treated using appropriate imputation techniques, while extreme observations were analyzed using the IQR method.
-
-The analysis identified useful patterns across age, BMI, blood pressure, glucose level, cholesterol, smoking, family history, physical activity, and sleep hours. A combined risk score based on BMI, blood pressure, glucose, and cholesterol was also developed to identify patients with multiple elevated health indicators.
-
-Overall, the project demonstrates how Python and EDA techniques can transform raw healthcare data into meaningful analytical insights. The resulting cleaned dataset provides a strong foundation for future SQL analysis, Power BI dashboard development, and machine-learning-based disease prediction.
-
-**🚀 Future Scope**
-
-This project can be extended further by:
-
-Building a complete SQL analytics layer.
-Creating an interactive Power BI healthcare dashboard.
-Applying machine-learning classification algorithms.
-Comparing models such as Logistic Regression, Decision Tree, Random Forest, and AdaBoost.
-Performing hyperparameter tuning.
-Handling class imbalance using techniques such as SMOTE when appropriate.
-Evaluating models using Accuracy, Precision, Recall, F1-score, and ROC-AUC.
-Adding model explainability using feature-importance techniques.
-Developing a simple healthcare risk-prediction application.
+⭐ If you find this project interesting, feel free to explore the repository and share your feedback!
