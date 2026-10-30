@@ -26,9 +26,9 @@ The main objective is to transform raw healthcare data into meaningful insights 
 | Data Visualization | Matplotlib, Seaborn |
 | Database | MySQL |
 | Machine Learning | Scikit-learn |
-| Algorithms | KNN, Random Forest, AdaBoost, Gradient Boosting |
-| Development Environment | Jupyter Notebook, Google Colab |
-| Version Control | Git & GitHub |
+| Algorithms |Random Forest|
+| Development Environment | Jupyter Notebook|
+| Version Control | GitHub |
 
 ## 📂 Project Structure
 
@@ -93,11 +93,8 @@ In this phase, Machine Learning algorithms were implemented to predict disease o
 - Evaluating models using accuracy, confusion matrix, precision, recall, and F1-score.
 - Selecting the best-performing model.
 
-**Algorithms Implemented:**
-- K-Nearest Neighbors (KNN)
+**Algorithm Implemented:**
 - Random Forest Classifier
-- AdaBoost Classifier
-- Gradient Boosting Classifier
 
 **🏆 Best Performing Model: Random Forest Classifier**
 
